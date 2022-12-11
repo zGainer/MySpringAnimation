@@ -60,16 +60,56 @@
 		44E27DCE29430BD8002EAC62 /* MySpringAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				44E27DCF29430BD8002EAC62 /* AppDelegate.swift */,
-				44E27DD129430BD8002EAC62 /* SceneDelegate.swift */,
-				44E27DD329430BD8002EAC62 /* ViewController.swift */,
-				44E27DD529430BD8002EAC62 /* Main.storyboard */,
-				44E27DD829430BDA002EAC62 /* Assets.xcassets */,
-				44E27DDA29430BDA002EAC62 /* LaunchScreen.storyboard */,
-				44E27DDD29430BDA002EAC62 /* Info.plist */,
-				44E27DE6294319E7002EAC62 /* AnimationModel.swift */,
+				44FC77E02945AC05003BC511 /* App */,
+				44FC77E12945AC1B003BC511 /* Model */,
+				44FC77E22945AC29003BC511 /* ViewControllers */,
+				44FC77E32945AC5A003BC511 /* View */,
+				44FC77E42945AC84003BC511 /* Resourses */,
 			);
 			path = MySpringAnimation;
+			sourceTree = "<group>";
+		};
+		44FC77E02945AC05003BC511 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				44E27DCF29430BD8002EAC62 /* AppDelegate.swift */,
+				44E27DD129430BD8002EAC62 /* SceneDelegate.swift */,
+				44E27DDD29430BDA002EAC62 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		44FC77E12945AC1B003BC511 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44E27DE6294319E7002EAC62 /* AnimationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44FC77E22945AC29003BC511 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44E27DD329430BD8002EAC62 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		44FC77E32945AC5A003BC511 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44E27DD529430BD8002EAC62 /* Main.storyboard */,
+				44E27DDA29430BDA002EAC62 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44FC77E42945AC84003BC511 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				44E27DD829430BDA002EAC62 /* Assets.xcassets */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,7 +341,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F5JRYMNHVM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MySpringAnimation/Info.plist;
+				INFOPLIST_FILE = MySpringAnimation/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -329,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F5JRYMNHVM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MySpringAnimation/Info.plist;
+				INFOPLIST_FILE = MySpringAnimation/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
