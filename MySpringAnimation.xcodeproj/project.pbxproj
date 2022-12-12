@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4481A163294705CD0029D674 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481A162294705CD0029D674 /* DataStore.swift */; };
 		44E27DD029430BD8002EAC62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E27DCF29430BD8002EAC62 /* AppDelegate.swift */; };
 		44E27DD229430BD8002EAC62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E27DD129430BD8002EAC62 /* SceneDelegate.swift */; };
 		44E27DD429430BD8002EAC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E27DD329430BD8002EAC62 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4481A162294705CD0029D674 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		44E27DCC29430BD8002EAC62 /* MySpringAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpringAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E27DCF29430BD8002EAC62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E27DD129430BD8002EAC62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +65,7 @@
 				44FC77E02945AC05003BC511 /* App */,
 				44FC77E12945AC1B003BC511 /* Model */,
 				44FC77E22945AC29003BC511 /* ViewControllers */,
-				44FC77E32945AC5A003BC511 /* View */,
+				44FC77E32945AC5A003BC511 /* Storyboards */,
 				44FC77E42945AC84003BC511 /* Resourses */,
 			);
 			path = MySpringAnimation;
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				44E27DE6294319E7002EAC62 /* AnimationModel.swift */,
+				4481A162294705CD0029D674 /* DataStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,13 +98,13 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		44FC77E32945AC5A003BC511 /* View */ = {
+		44FC77E32945AC5A003BC511 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				44E27DD529430BD8002EAC62 /* Main.storyboard */,
 				44E27DDA29430BDA002EAC62 /* LaunchScreen.storyboard */,
 			);
-			path = View;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		44FC77E42945AC84003BC511 /* Resourses */ = {
@@ -192,6 +195,7 @@
 				44E27DE7294319E7002EAC62 /* AnimationModel.swift in Sources */,
 				44E27DD429430BD8002EAC62 /* ViewController.swift in Sources */,
 				44E27DD029430BD8002EAC62 /* AppDelegate.swift in Sources */,
+				4481A163294705CD0029D674 /* DataStore.swift in Sources */,
 				44E27DD229430BD8002EAC62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,16 +9,10 @@ import UIKit
 import SpringAnimation
 
 final class ViewController: UIViewController {
-
-    @IBOutlet var presetValueLabel: UILabel!
-    @IBOutlet var curveValueLabel: UILabel!
-    @IBOutlet var forceValueLabel: UILabel!
-    @IBOutlet var durationValueLabel: UILabel!
-    @IBOutlet var delayValueLabel: UILabel!
+    
+    @IBOutlet var descriptionLabel: UILabel!
     
     @IBOutlet var springAnimationView: SpringView!
-    
-    @IBOutlet var runButton: UIButton!
     
     private var animationSettings = AnimationSettings.getRandomSettings()
     
@@ -27,8 +21,8 @@ final class ViewController: UIViewController {
         
         updateUI(with: animationSettings)
     }
-
-    @IBAction func runButtonTapped() {
+    
+    @IBAction func runButton(_ sender: UIButton) {
         setViewAnimationSettings(with: animationSettings)
         
         updateUI(with: animationSettings)
@@ -37,18 +31,14 @@ final class ViewController: UIViewController {
         
         animationSettings = AnimationSettings.getRandomSettings()
         
-        runButton.setTitle(animationSettings.preset, for: .normal)
+        sender.setTitle(animationSettings.preset, for: .normal)
     }
 }
 
 extension ViewController {
     
     private func updateUI(with settings: AnimationSettings) {
-        presetValueLabel.text = settings.preset
-        curveValueLabel.text = settings.curve
-        forceValueLabel.text = settings.forceString
-        durationValueLabel.text = settings.durationString
-        delayValueLabel.text = settings.delayString
+        descriptionLabel.text = settings.description
     }
     
     private func setViewAnimationSettings(with settings: AnimationSettings) {
